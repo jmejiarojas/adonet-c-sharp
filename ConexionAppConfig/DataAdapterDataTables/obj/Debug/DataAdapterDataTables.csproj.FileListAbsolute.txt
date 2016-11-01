@@ -1,0 +1,11 @@
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\bin\Debug\DataAdapterDataTables.exe.config
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\bin\Debug\DataAdapterDataTables.exe
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\bin\Debug\DataAdapterDataTables.pdb
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\obj\Debug\DataAdapterDataTables.csprojResolveAssemblyReference.cache
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\obj\Debug\DataAdapterDataTables.Form1.resources
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\obj\Debug\DataAdapterDataTables.Properties.Resources.resources
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\obj\Debug\DataAdapterDataTables.csproj.GenerateResource.Cache
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\obj\Debug\DataAdapterDataTables.exe
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\obj\Debug\DataAdapterDataTables.pdb
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\obj\Debug\DataAdapterDataTables.FrmConsulaPedidosAnio.resources
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\DataAdapterDataTables\obj\Debug\DataAdapterDataTables.FrmPedidosPorCliente.resources

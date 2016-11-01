@@ -1,0 +1,95 @@
+
+--Procedures de la semana 2
+
+/*
+Vamos a filtrar los pedidos por año
+*/
+
+SELECT *
+FROM VENTAS.pedidoscabe
+GO
+
+select *
+from ventas.clientes
+go
+
+SELECT *
+FROM RRHH.EMPLEADOS
+GO
+
+CREATE PROCEDURE SP_PEDIDOS_FECHA
+@ANIO INT
+AS
+BEGIN
+SELECT P.IdPedido AS 'Codigo', c.NomCliente as 'Cliente', E.NOMEMPLEADO  +  SPACE(1) + E.APEEMPLEADO AS 'Empleado',
+P.FechaPedido as 'Fecha Pedido', p.fechaEnvio as 'Fecha de Envio', p.cantidaPedido as 'Fecha de Cantida'
+FROM VENTAS.pedidoscabe P
+JOIN VENTAS.clientes C ON C.IDCLIENTE = P.IDCLIENTE
+JOIN RRHH.EMPLEADOS E on E.IDEMPLEADO = E.IDEMPLEADO
+WHERE YEAR(P.FECHApEDIDO) = @ANIO
+END
+go
+ 
+EXEC SP_PEDIDOS_FECHA 1998
+GO
+
+/*
+Llenando el combo con los años de pedidos
+*/
+
+CREATE PROCEDURE SP_ANIO_PEDIDOS
+AS
+BEGIN
+SELECT DISTINCT YEAR(P.FECHAPEDIDO) AS 'ANIO'
+FROM VENTAS.PEDIDOSCABE P
+ORDER BY 1
+END
+GO
+
+EXEC SP_ANIO_PEDIDOS
+GO
+
+/*
+Vamos a listar a todos los clientes(Esto se va a mostrar en el combo)
+*/
+
+select *
+from ventas.clientes
+go
+
+Create Proc usp_ClientesListar
+As
+Begin
+select c.idcliente as Codigo,
+c.nomcliente as Cliente,
+c.dircliente as Direccion,
+p.nombrepais as Pais,
+c.fonocliente as Fono
+from ventas.clientes c
+join ventas.paises p on c.idpais=p.idpais
+End
+go
+
+exec usp_ClientesListar
+go
+
+--MOSTRAMOS LOS PEDIDOS POR CLIENTE
+Create Proc usp_PedidosXCliente
+@idCliente VarChar(5)
+As
+Begin
+Select p.idpedido as Codigo,c.nomcliente as Cliente,
+e.nomempleado+space(1)+e.apeempleado as Empleado,
+p.fechapedido as [Fecha Pedido],
+p.fechaenvio as [Fecha Envío],
+p.fechaentrega as [Fecha Entrega],
+p.cantidapedido as Cantidad
+from Ventas.pedidoscabe p
+join Ventas.clientes c on c.idcliente=p.idcliente
+join RRHH.empleados e on p.idempleado=e.idempleado
+Where c.IdCliente=@IdCliente
+End
+go
+
+EXEC usp_PedidosXCliente 'LACOR'
+GO
