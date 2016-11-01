@@ -1,0 +1,10 @@
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\bin\Debug\ConexionAppConfig.exe.config
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\bin\Debug\ConexionAppConfig.exe
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\bin\Debug\ConexionAppConfig.pdb
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\obj\Debug\ConexionAppConfig.csprojResolveAssemblyReference.cache
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\obj\Debug\ConexionAppConfig.Form1.resources
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\obj\Debug\ConexionAppConfig.Properties.Resources.resources
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\obj\Debug\ConexionAppConfig.csproj.GenerateResource.Cache
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\obj\Debug\ConexionAppConfig.exe
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\obj\Debug\ConexionAppConfig.pdb
+C:\Github\Cibertec\POO2\VideoClases\ConexionAppConfig\ConexionAppConfig\obj\Debug\ConexionAppConfig.FrmConsultaProductos.resources
